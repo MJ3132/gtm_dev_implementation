@@ -29,7 +29,7 @@ const OrderConfirmation = ({ cart, orderId, address, city, creditCard, postalCod
                 }
             }
         })
-    }, [cart]);
+    },[cart]);
 
     return (
         <div className="orderConfirmation_container">

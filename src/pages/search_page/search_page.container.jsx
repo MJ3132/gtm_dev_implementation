@@ -40,7 +40,7 @@ const SearchPage = function (props) {
         })    
         setSearchProducts(searchProducts)
      }
-    });
+    },[searchProducts]);
 
 
     function nativeAddToCart(productId) {
