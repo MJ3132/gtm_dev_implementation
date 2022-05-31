@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/gtm_dev_implementation/static/css/main.a74a514a.chunk.css",
-    "main.js": "/gtm_dev_implementation/static/js/main.10e93c9f.chunk.js",
-    "main.js.map": "/gtm_dev_implementation/static/js/main.10e93c9f.chunk.js.map",
-    "runtime-main.js": "/gtm_dev_implementation/static/js/runtime-main.f2a1e228.js",
-    "runtime-main.js.map": "/gtm_dev_implementation/static/js/runtime-main.f2a1e228.js.map",
-    "static/js/2.bdd403b6.chunk.js": "/gtm_dev_implementation/static/js/2.bdd403b6.chunk.js",
-    "static/js/2.bdd403b6.chunk.js.map": "/gtm_dev_implementation/static/js/2.bdd403b6.chunk.js.map",
-    "static/js/3.417d1944.chunk.js": "/gtm_dev_implementation/static/js/3.417d1944.chunk.js",
-    "static/js/3.417d1944.chunk.js.map": "/gtm_dev_implementation/static/js/3.417d1944.chunk.js.map",
-    "index.html": "/gtm_dev_implementation/index.html",
-    "static/css/main.a74a514a.chunk.css.map": "/gtm_dev_implementation/static/css/main.a74a514a.chunk.css.map",
-    "static/js/2.bdd403b6.chunk.js.LICENSE.txt": "/gtm_dev_implementation/static/js/2.bdd403b6.chunk.js.LICENSE.txt",
-    "static/media/promotion_athletic_shoes.4897bfea.jpg": "/gtm_dev_implementation/static/media/promotion_athletic_shoes.4897bfea.jpg",
-    "static/media/promotion_backpacks.a3f0fbfd.jpg": "/gtm_dev_implementation/static/media/promotion_backpacks.a3f0fbfd.jpg",
-    "static/media/promotion_couches.f62d58b3.jpg": "/gtm_dev_implementation/static/media/promotion_couches.f62d58b3.jpg",
-    "static/media/promotion_dinner_sets.628ee9be.jpg": "/gtm_dev_implementation/static/media/promotion_dinner_sets.628ee9be.jpg",
-    "static/media/promotion_pans.bd721bc9.jpg": "/gtm_dev_implementation/static/media/promotion_pans.bd721bc9.jpg",
-    "static/media/promotion_vaccums.c689e567.jpg": "/gtm_dev_implementation/static/media/promotion_vaccums.c689e567.jpg",
-    "static/media/promotion_watches.3c35980e.jpg": "/gtm_dev_implementation/static/media/promotion_watches.3c35980e.jpg",
-    "static/media/tamanna-rumee-mIqyYpSNq3o-unsplash_main_banner.8ee615f6.jpg": "/gtm_dev_implementation/static/media/tamanna-rumee-mIqyYpSNq3o-unsplash_main_banner.8ee615f6.jpg"
+    "main.css": "http://localhost:3000/static/css/main.a74a514a.chunk.css",
+    "main.js": "http://localhost:3000/static/js/main.e41f1a36.chunk.js",
+    "main.js.map": "http://localhost:3000/static/js/main.e41f1a36.chunk.js.map",
+    "runtime-main.js": "http://localhost:3000/static/js/runtime-main.f55d05d9.js",
+    "runtime-main.js.map": "http://localhost:3000/static/js/runtime-main.f55d05d9.js.map",
+    "static/js/2.bdd403b6.chunk.js": "http://localhost:3000/static/js/2.bdd403b6.chunk.js",
+    "static/js/2.bdd403b6.chunk.js.map": "http://localhost:3000/static/js/2.bdd403b6.chunk.js.map",
+    "static/js/3.417d1944.chunk.js": "http://localhost:3000/static/js/3.417d1944.chunk.js",
+    "static/js/3.417d1944.chunk.js.map": "http://localhost:3000/static/js/3.417d1944.chunk.js.map",
+    "index.html": "http://localhost:3000/index.html",
+    "static/css/main.a74a514a.chunk.css.map": "http://localhost:3000/static/css/main.a74a514a.chunk.css.map",
+    "static/js/2.bdd403b6.chunk.js.LICENSE.txt": "http://localhost:3000/static/js/2.bdd403b6.chunk.js.LICENSE.txt",
+    "static/media/promotion_athletic_shoes.4897bfea.jpg": "http://localhost:3000/static/media/promotion_athletic_shoes.4897bfea.jpg",
+    "static/media/promotion_backpacks.a3f0fbfd.jpg": "http://localhost:3000/static/media/promotion_backpacks.a3f0fbfd.jpg",
+    "static/media/promotion_couches.f62d58b3.jpg": "http://localhost:3000/static/media/promotion_couches.f62d58b3.jpg",
+    "static/media/promotion_dinner_sets.628ee9be.jpg": "http://localhost:3000/static/media/promotion_dinner_sets.628ee9be.jpg",
+    "static/media/promotion_pans.bd721bc9.jpg": "http://localhost:3000/static/media/promotion_pans.bd721bc9.jpg",
+    "static/media/promotion_vaccums.c689e567.jpg": "http://localhost:3000/static/media/promotion_vaccums.c689e567.jpg",
+    "static/media/promotion_watches.3c35980e.jpg": "http://localhost:3000/static/media/promotion_watches.3c35980e.jpg",
+    "static/media/tamanna-rumee-mIqyYpSNq3o-unsplash_main_banner.8ee615f6.jpg": "http://localhost:3000/static/media/tamanna-rumee-mIqyYpSNq3o-unsplash_main_banner.8ee615f6.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f2a1e228.js",
+    "static/js/runtime-main.f55d05d9.js",
     "static/js/2.bdd403b6.chunk.js",
     "static/css/main.a74a514a.chunk.css",
-    "static/js/main.10e93c9f.chunk.js"
+    "static/js/main.e41f1a36.chunk.js"
   ]
 }
