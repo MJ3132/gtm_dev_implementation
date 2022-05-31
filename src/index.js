@@ -8,11 +8,10 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 
-const baseUrl = process.env.NODE_ENV === 'development' ? '' : '/gtm_dev_implementation';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename={baseUrl}> 
+    <Router basename='/gtm_dev_implementation'> 
     <App />
     </Router>
   </React.StrictMode>,
