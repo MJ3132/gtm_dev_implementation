@@ -30,7 +30,7 @@ import './App.scss';
 
 
 const TagManagerArgs = {
-  gtmId: "GTM-N5JL87F"
+  gtmId: "GTM-KTCJSPR"
 }
 
 TagManager.initialize(TagManagerArgs)
