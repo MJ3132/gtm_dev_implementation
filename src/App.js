@@ -40,6 +40,7 @@ function App() {
   
 
 
+
   const [cart, setCart] = useState({});
   const [listingProducts, setListingProducts] = useState([]);
   const [searchProducts, setSearchProducts] = useState([]);
@@ -64,12 +65,12 @@ function App() {
             <CartContext.Provider value={{ cart, setCart }}>
               <NavBar />
               <Switch>
-                <Route path="/search_results" component={Searchpage} />
-                <Route path="/catalogue" component={Listingpage} />
-                <Route path="/contact" component={Contactpage} />
-                <Route path="/product" component={Productpage} />
-                <Route path="/checkout" component={Checkoutpage} />
-                <Route exact path="/gtm_dev_implementation" component={Homepage} />
+                <Route path='/search_results' component={Searchpage} />
+                <Route path='/catalogue' component={Listingpage} />
+                <Route path='/contact' component={Contactpage} />
+                <Route path='/product' component={Productpage} />
+                <Route path='/checkout' component={Checkoutpage} />
+                <Route path='/' component={Homepage} />
               </Switch>
               <Footer/>
             </CartContext.Provider>
