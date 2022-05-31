@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Mjarrin.github.io/gtm_dev_implementation",
+  "homepage": "https://Mjarrin.github.io/gtm_dev_implementation/",
   "name": "gtm-dev-setup",
   "version": "0.1.0",
   "private": true,
@@ -21,12 +21,14 @@
     "react-icons": "^4.3.1",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.9.2"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "webpack-dev-server --host 0.0.0.0 --disable-host-check --open-page gtm_dev_implementation",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
