@@ -56,12 +56,12 @@ function App() {
               <CartContext.Provider value={{ cart, setCart }}>
                 <NavBar />
                 <Switch>
-                  <Route path={"/search_results"} component={Searchpage} />
-                  <Route path={"/catalogue"} component={Listingpage} />
-                  <Route path={"/contact"} component={Contactpage} />
-                  <Route path={"/product"} component={Productpage} />
-                  <Route path={"/checkout"} component={Checkoutpage} />
-                  <Route path={"/"} component={Homepage} />
+                  <Route path="/search_results" component={Searchpage} />
+                  <Route path="/catalogue" component={Listingpage} />
+                  <Route path="/contact" component={Contactpage} />
+                  <Route path="/product" component={Productpage} />
+                  <Route path="/checkout" component={Checkoutpage} />
+                  <Route path="/" component={Homepage} />
                 </Switch>
                 <Footer />
               </CartContext.Provider>
