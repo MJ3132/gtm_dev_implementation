@@ -8,11 +8,11 @@ import {
 
 const Button = (props) => (
 
-    <Link to={props.link} className="button_container">
+    <div className="button_container">
         <button className="cta_button" disabled={props.disabled} onClick={props.clickAction} >
             {props.children}
         </button>
-    </Link>
+    </div>
 )
 
 export default Button;

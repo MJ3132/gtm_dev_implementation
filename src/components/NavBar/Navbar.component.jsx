@@ -97,7 +97,7 @@ const Navbar = (props) => {
         <input
           type="text"
           className="search_input"
-          placeholder="search"
+          placeholder="search ex: mens, women, monitor, bracelet, shirts, jacket, gaming drive"
           onKeyDown={inputListener}
         />
       </div>

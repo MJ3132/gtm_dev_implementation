@@ -8,7 +8,9 @@ import { CartContext } from '../../Contexts/Cart';
 import ReviewStars from "../../components/ReviewStars/ReviewStars.component";
 import Button from '../../components/Button/Button.component';
 
+
 import TagManager from "react-gtm-module";
+
 
 const ProductPage = () => {
 
@@ -99,7 +101,7 @@ const ProductPage = () => {
                         </div>
                     </div>
                     <div className='addTocartButton'>
-                        <Button link={window.location.pathname + window.location.search} clickAction={() => nativeAddToCart()}>Add To Cart</Button>
+                        <Button clickAction={() => nativeAddToCart()}>Add To Cart</Button>
                     </div>
                     <br />
                     {successAddToCart ?
