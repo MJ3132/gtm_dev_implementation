@@ -1,9 +1,6 @@
 import React from 'react';
 import './Button.styles.scss';
 
-import {
-    Link
-} from 'react-router-dom';
 
 
 const Button = (props) => (

@@ -10,12 +10,10 @@ import { CartContext } from "../../Contexts/Cart";
 
 import CartSliderProduct from "../CartSliderProduct/CartSliderProduct.component";
 import Button from "../Button/Button.component";
-import Link from "@mui/material/Link";
 import TagManager from "react-gtm-module";
 
 const CartSlider = ({ activeStatus, onMouseLeave, history }) => {
   const { cart, setCart } = useContext(CartContext);
-  const url = window.location.href;
 
   useEffect(() => {
     if (activeStatus) {
