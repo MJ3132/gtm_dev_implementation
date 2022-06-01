@@ -17,7 +17,10 @@ import Link from "@mui/material/Link";
 import TagManager from "react-gtm-module";
 
 const Homepage = () => {
-  const url = window.location.href;
+  const url =
+    process.env.NODE_ENV === "development"
+      ? window.location.href + "/"
+      : window.location.href;
 
   useEffect(() => {
     TagManager.dataLayer({
@@ -39,7 +42,7 @@ const Homepage = () => {
           creative="50% hero banner"
           className="banner_container"
         >
-          <Link href={url + "/catalogue"} underline="none">
+          <Link href={url + "catalogue"} underline="none">
             <Banner bannerImage={HeroBanner} />
           </Link>
         </div>
@@ -49,7 +52,7 @@ const Homepage = () => {
             creative="red nike shoes"
             className="promotion_slot"
           >
-            <Link href={url + "/catalogue"} underline="none">
+            <Link href={url + "catalogue"} underline="none">
               <Banner bannerImage={PromoShoes} />
               <div className="promotion_title">
                 <h1>Shoes</h1>
@@ -62,7 +65,7 @@ const Homepage = () => {
             creative="blue backpack"
             className="promotion_slot"
           >
-            <Link href={url + "/catalogue"} underline="none">
+            <Link href={url + "catalogue"} underline="none">
               <Banner bannerImage={PromoBackpacks} />
               <div className="promotion_title">
                 <h1>Backpacks</h1>
@@ -75,7 +78,7 @@ const Homepage = () => {
             creative="beige couch"
             className="promotion_slot"
           >
-            <Link href={url + "/catalogue"} underline="none">
+            <Link href={url + "catalogue"} underline="none">
               <Banner bannerImage={PromoCouches} />
               <div className="promotion_title">
                 <h1>Couches</h1>
@@ -88,7 +91,7 @@ const Homepage = () => {
             creative="grey dinner set"
             className="promotion_slot"
           >
-            <Link href={url + "/catalogue"} underline="none">
+            <Link href={url + "catalogue"} underline="none">
               <Banner bannerImage={PromoDinnerSets} />
               <div className="promotion_title">
                 <h1>Dinner Sets</h1>
@@ -101,7 +104,7 @@ const Homepage = () => {
             creative="rolex watch"
             className="promotion_slot"
           >
-            <Link href={url + "/catalogue"} underline="none">
+            <Link href={url + "catalogue"} underline="none">
               <Banner bannerImage={PromoWatches} />
               <div className="promotion_title">
                 <h1>Watches</h1>
@@ -125,7 +128,7 @@ const Homepage = () => {
         <section className="section_about_product">
           <div className="product_description_container">
             <div className="product_description_image_container">
-              <Link href={url + "/catalogue"} underline="none">
+              <Link href={url + "catalogue"} underline="none">
                 <img src={PromoVacuums} alt="promo vacuums" />
               </Link>
             </div>
@@ -158,7 +161,7 @@ const Homepage = () => {
               </p>
             </div>
             <div className="product_description_image_container">
-              <Link href={url + "/catalogue"} underline="none">
+              <Link href={url + "catalogue"} underline="none">
                 <img src={PromoPans} alt="promo pans" />
               </Link>
             </div>
