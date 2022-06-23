@@ -42,6 +42,11 @@ const Navbar = (props) => {
       setLoadingSpinner(true);
 
       const searchTerm = e.target.value;
+      const searchInput = document.querySelector('.search_input'); 
+
+      if (searchInput){
+        searchInput.value = '';
+      }
 
       apiCallProducts(function (products) {
         const sortedProducts = products.filter((product) => {
